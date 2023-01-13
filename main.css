@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Roboto Flex';
+  font-weight: 100 1000;
+  /* font-stretch: 75% 125%; */
+  font-style: normal;
+  src: url('fonts/roboto-flex-2.woff2') format('woff2-variations');
+}
+
+/*
+@font-face {
+	font-family: 'Miami';
+	src: url('./fonts/AtlantiqueMiami-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Miami';
+	src: url('./fonts/AtlantiqueMiami-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+*/
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Roboto Flex', sans-serif;
+	background: lightcoral;
+
+	font-size: 2rem;
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 150%;
+	font-weight: 935;
+}
